@@ -77,7 +77,12 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 relative">
+      {/* Informações do desenvolvedor */}
+      <div className="absolute bottom-4 right-4 text-xs text-gray-500 bg-white/80 px-2 py-1 rounded">
+        Diogo da Silva Florêncio - RU: 4330568
+      </div>
+      
       <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full mx-4">
         <div className="flex">
           {/* Lado esquerdo - Imagem */}
