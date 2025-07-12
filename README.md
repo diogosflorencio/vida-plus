@@ -41,7 +41,7 @@ O **Vida+** é um sistema completo de gestão hospitalar desenvolvido em React c
 
 1. **Clone o repositório**
 ```bash
-git clone [url-do-repositorio]
+git clone https://github.com/diogosflorencio/vida-plus
 cd vida-plus
 ```
 
